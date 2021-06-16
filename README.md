@@ -44,3 +44,8 @@ $ git commit -m 'commit message'
 ```
 $ git commit -a -m 'commit message'
 ```
+
+### 6. Remove file from staging area
+```
+$ git rm --cached filename
+```
