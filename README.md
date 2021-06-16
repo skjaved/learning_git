@@ -8,6 +8,7 @@
 
 ## Git commands cheat sheet
 
+## Local repository
 ### 1. Init empty git repository
 ```
 $ git init
@@ -69,3 +70,6 @@ $ git commit --amend --no-edit
 ```
 $ git restore --staged filename
 ```
+
+
+## Remote repository
