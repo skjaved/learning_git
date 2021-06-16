@@ -49,3 +49,18 @@ $ git commit -a -m 'commit message'
 ```
 $ git rm --cached filename
 ```
+
+### 7. Get the commit history (log)
+```
+$ git log
+```
+
+### 8. Amend the last commit message
+```
+$ git commit --amend
+```
+
+### 9. Add the forgotten change with the last commit message
+```
+$ git commit --amend --no-edit
+```
