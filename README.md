@@ -8,12 +8,12 @@
 
 ## Git commands cheat sheet
 
-### - Init empty git repository
+### 1. Init empty git repository
 ```
 $ git init
 ```
 
-### - Add files to Staging Area
+### 2. Add files to Staging Area
 ```
 $ git add [filename]
 ```
@@ -21,9 +21,26 @@ to add all files
 ```
 $ git add .
 ```
+to add files with particular format
+```
+$ git add *.exe
+```
 
-### - Check the changes in staging area
+### 3. Check the changes in staging area
 ```
 $ git status
 ```
+short status command
+```
+$ git status -s
+```
 
+### 4. Commit the changes
+```
+$ git commit -m 'commit message'
+```
+
+### 5. Commit file and add to stating simultaneously
+```
+$ git commit -a -m 'commit message'
+```
