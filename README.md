@@ -64,3 +64,8 @@ $ git commit --amend
 ```
 $ git commit --amend --no-edit
 ```
+
+### 10. Unstage files to add stage again with different commit
+```
+$ git restore --staged filename
+```
