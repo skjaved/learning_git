@@ -73,3 +73,21 @@ $ git restore --staged filename
 
 
 ## Remote repository
+
+Create the repository on any repository hosting platform like Github, Gitlab or Bitbucked and add local to remote. or clone remote repository.
+
+### 11. To check local repository is connected to which remote repository or not.
+```
+$ git remote -v
+```
+
+### 12. Add local repository to remote repository
+```
+$ git remote add origin 'url'
+```
+
+### 12. Connect local master branch to remote master branch
+```
+$ git branch -M main
+$ git push -u origin main
+```
